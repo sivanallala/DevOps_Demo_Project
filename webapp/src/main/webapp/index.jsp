@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,14 +24,27 @@
         h1 {
             color: #3498db;
             font-size: 3rem;
+            margin-bottom: 20px;
         }
         p {
             color: #2ecc71;
             font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+        .icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .icon {
             font-size: 2rem;
-            margin: 10px;
+            margin: 0 10px;
+            color: #f39c12; /* Change icon color */
+            transition: all 0.3s ease;
+        }
+        .icon:hover {
+            transform: scale(1.2); /* Increase size on hover */
+            color: #e74c3c; /* Change color on hover */
         }
     </style>
 </head>
@@ -40,14 +52,15 @@
     <div class="container">
         <h1>Hi team, this is DevOps Demo!</h1>
         <p>Welcome to our project demo.</p>
-        <i class="fas fa-code icon" style="color: #3498db;"></i>
-        <i class="fas fa-cogs icon" style="color: #e74c3c;"></i>
-        <i class="fas fa-server icon" style="color: #2ecc71;"></i>
+        <div class="icons">
+            <i class="fab fa-git-alt icon"></i>
+            <i class="fab fa-jenkins icon"></i>
+            <i class="fab fa-docker icon"></i>
+            <i class="fab fa-aws icon"></i>
+            <i class="fab fa-github icon"></i>
+        </div>
     </div>
     <!-- Include Font Awesome -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 </body>
 </html>
-
-
-
