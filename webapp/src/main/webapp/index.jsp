@@ -1,4 +1,4 @@
-<h1>hi team this is demo devops pipeline</h1>
+
 <!DOCTYPE html>
 <html>
 <head>
