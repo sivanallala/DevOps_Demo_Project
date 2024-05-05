@@ -1,20 +1,19 @@
-
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi Team this is DevOps Demo Pipeline</title>
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!-- Custom CSS for Floating Colors -->
+    <title>DevOps Demo Pipeline</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
             margin: 0;
             padding: 0;
             overflow: hidden;
+            background-image: url('background_watermark.jpg');
+            background-repeat: repeat;
         }
         .container {
             position: relative;
@@ -27,7 +26,6 @@
         .icon {
             font-size: 3rem;
             margin: 20px;
-            color: #3498db;
             animation: float 5s ease-in-out infinite;
         }
         @keyframes float {
@@ -37,6 +35,9 @@
             50% {
                 transform: translateY(-20px);
             }
+        }
+        .icon:nth-child(1) {
+            color: #3498db;
         }
         .icon:nth-child(2) {
             color: #e74c3c;
@@ -49,9 +50,9 @@
 </head>
 <body>
     <div class="container">
-        <i class="fas fa-fire icon"></i>
-        <i class="fas fa-rocket icon"></i>
-        <i class="fas fa-lightbulb icon"></i>
+        <i class="fas fa-code icon"></i>
+        <i class="fas fa-code-branch icon"></i>
+        <i class="fas fa-server icon"></i>
         <!-- Add more icons as needed -->
     </div>
 </body>
