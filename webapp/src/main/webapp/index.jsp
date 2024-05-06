@@ -51,7 +51,7 @@
 <body>
     <div class="container">
         <h1>Hi team, demo</h1>
-        <p>Welcome to our project demo.</p>
+        <p>Welcome to our project demo DevOps Pipeline.</p>
         <div class="icons">
             <i class="fab fa-git-alt icon"></i>
             <i class="fab fa-jenkins icon"></i>
