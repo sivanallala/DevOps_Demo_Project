@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps Demo</title>
+    <title>DevOps Demo Pipeline CI/CD</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -51,7 +51,7 @@
 <body>
     <div class="container">
         <h1>Hi team, demo</h1>
-        <p>Welcome to our project demo DevOps Pipeline.</p>
+        <p>Welcome to our project DevOps Demo Pipeline.</p>
         <div class="icons">
             <i class="fab fa-git-alt icon"></i>
             <i class="fab fa-jenkins icon"></i>
