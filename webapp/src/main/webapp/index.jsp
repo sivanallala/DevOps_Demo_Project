@@ -50,7 +50,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hi team, demo</h1>
+        <h1>Hi team</h1>
         <p>Welcome to our project DevOps Demo Pipeline.</p>
         <div class="icons">
             <i class="fab fa-git-alt icon"></i>
